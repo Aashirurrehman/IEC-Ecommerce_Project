@@ -6,6 +6,7 @@ import {
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
+import { mobile } from "../Responsive";
 
 const Container = styled.div`
   width: 100%;
@@ -14,6 +15,7 @@ const Container = styled.div`
   margin-top: 30px;
   position: relative;
   overflow: hidden;
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
@@ -59,6 +61,7 @@ const ImgContainer = styled.div`
 const Image = styled.img`
   height: 80%;
   width: 211%;
+ 
 `;
 
 const InfoContainer = styled.div`
