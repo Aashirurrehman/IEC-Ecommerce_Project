@@ -9,6 +9,7 @@ const Container = styled.div`
     font-style: 14px;
     font-weight: bolder;
     justify-content: center;
+    
 
     
 `;
